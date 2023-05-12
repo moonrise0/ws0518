@@ -66,7 +66,7 @@
             <ul>
               <li class="active"><a href="/">Home</a></li>
               <li class="has-dropdown">
-                <a href="/item">Item</a>
+                <a href="/men">Men</a>
                 <ul class="dropdown">
                   <li><a href="/product-detail">Product Detail</a></li>
                   <li><a href="/cart">Shopping Cart</a></li>
