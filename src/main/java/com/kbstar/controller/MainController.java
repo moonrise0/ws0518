@@ -14,11 +14,7 @@ public class MainController {
         return "index";
     }
 
-    @RequestMapping("/men")
-    public String mens(Model model){
-        model.addAttribute("center", "men");
-        return "index";
-    }
+
 
     @RequestMapping("/women")
     public String womens(Model model){
