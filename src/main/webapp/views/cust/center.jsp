@@ -39,8 +39,8 @@
                 <div class="col-sm-4 text-center">
                     <div class="featured">
                         <div class="featured-img featured-img-2" style="background-image: url(images/men.jpg);">
-                            <h2>Casuals</h2>
-                            <p><a href="/cust/all" class="btn btn-primary btn-lg">Shop now</a></p>
+                            <h2>Find all customers</h2>
+                            <p><a href="/cust/all" class="btn btn-primary btn-lg">Find them</a></p>
                         </div>
                     </div>
                 </div>
