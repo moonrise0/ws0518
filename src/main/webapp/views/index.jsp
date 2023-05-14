@@ -77,7 +77,7 @@
                   <li><a href="/add-to-wishlist">Wishlist</a></li>
                 </ul>
               </li>
-              <li><a href="/women">Women</a></li>
+              <li><a href="/item">Item</a></li>
               <li><a href="/about">About</a></li>
               <li><a href="/contact">Contact</a></li>
               <li class="cart"><a href="/cart"><i class="icon-shopping-cart"></i> Cart [0]</a></li>
