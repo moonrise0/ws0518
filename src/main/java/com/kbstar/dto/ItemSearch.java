@@ -9,7 +9,7 @@ import lombok.*;
 @ToString
 public class ItemSearch {
     private String name;
-    private Integer price;
+    private String price;
     private String startdate;
     private String enddate;
 

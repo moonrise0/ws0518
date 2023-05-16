@@ -7,24 +7,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @Slf4j
-public class MainController {
+public class MainController  {
     @RequestMapping("/")
     public String main(Model model){
         model.addAttribute("center", "center");
         return "index";
     }
 
-    @RequestMapping("/men")
-    public String mens(Model model){
-        model.addAttribute("center", "men");
+    @RequestMapping("/item")
+    public String item(Model model){
+        model.addAttribute("center", "center");
         return "index";
     }
 
-    @RequestMapping("/women")
-    public String womens(Model model){
-        model.addAttribute("center", "women");
-        return "index";
-    }
+
 
     @RequestMapping("/about")
     public String about(Model model){
