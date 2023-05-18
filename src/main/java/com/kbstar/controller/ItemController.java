@@ -83,6 +83,8 @@ public class ItemController {
         return "index";
     }
 
+
+
     @RequestMapping("/search")
     public String search(Model model, ItemSearch ms) throws Exception {
         List<Item> list = null;

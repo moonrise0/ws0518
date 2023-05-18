@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+
+
 <!DOCTYPE HTML>
 <html lang="ko">
 <head>
@@ -38,8 +40,18 @@
   <!-- Flaticons  -->
   <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css">
 
+  <!-- 차트 -->
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/series-label.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+  <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+  <script src="https://code.highcharts.com/modules/cylinder.js"></script>
+  <script src="https://code.highcharts.com/modules/data.js"></script>
+  <script src="/js/charts.js"></script>
 
-
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
 
@@ -77,7 +89,20 @@
                   <li><a href="/add-to-wishlist">Wishlist</a></li>
                 </ul>
               </li>
-              <li><a href="/item">Item</a></li>
+
+              <li class="has-dropdown">
+               <a href="/item">Item</a>
+                <ul class="dropdown">
+                  <li><a href="/item/add">Register Item</a></li>
+                  <li><a href="/item/all">Find Item</a></li>
+                  <li><a href="/livechart">Sold item</a></li>
+
+                </ul>
+              </li>
+
+
+
+
               <li><a href="/about">About</a></li>
               <li><a href="/contact">Contact</a></li>
               <li class="cart"><a href="/cart"><i class="icon-shopping-cart"></i> Cart [0]</a></li>

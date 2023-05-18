@@ -10,14 +10,14 @@
 
 <div class="row">
   <div class="col-sm-8 offset-sm-2 text-center colorlib-heading">
-    <h2>재고확인</h2>
+    <h2>상품확인</h2>
   </div>
 </div>
 
 
 <div class="card shadow mb-4">
   <div class="card-header py-3">
-    <h6 >상세조회</h6>
+    <h6 >재고조회</h6>
     <form action="/item/search" method="get" id="search_form" class="form-inline well">
 
 

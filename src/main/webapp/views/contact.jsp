@@ -2,15 +2,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
-<div class="breadcrumbs">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <p class="bread"><span><a href="index.jsp">Home</a></span> / <span>Contact</span></p>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 <div id="colorlib-contact">

@@ -76,7 +76,7 @@
 </div>
     <div class="row">
       <div class="col-sm-8 offset-sm-2 text-center colorlib-heading">
-        <h2>재고 찾기</h2>
+        <h2>상품 확인</h2>
       </div>
     </div>
 

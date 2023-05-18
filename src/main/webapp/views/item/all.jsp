@@ -2,20 +2,45 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <style>
-    #item_img{
-        width:80px;
+    #item_img {
+        width: 80px;
+    }
+
+    /* 변경된 CSS */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    /* 추가적인 스타일링 */
+    .card-body {
+        padding: 0;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
     }
 </style>
 <!-- Begin Page Content -->
 <div class="container-fluid">
 
     <!-- Page Heading -->
-    <h1 class="h3 mb-2 text-gray-800">Item All</h1>
+
 
     <!-- DataTales Example -->
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Item All</h6>
+            <h1 class="m-3 font-weight-bold text">상품 목록</h1>
             <form action="/item/search" method="post" id="search_form" class="form-inline well">
 
                 <div class="form-group">
@@ -85,6 +110,8 @@
                                 <a href="#" data-toggle="modal" data-target="#target${obj.id}">
                                     <img id="item_img" src="/uimg/${obj.imgname}">
                                 </a>
+
+
                             </td>
                             <td><a href="/item/detail?id=${obj.id}">${obj.id}</a></td>
                             <td>${obj.name}</td>
